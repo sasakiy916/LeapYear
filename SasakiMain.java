@@ -1,5 +1,5 @@
 import java.util.*;
-public class DaysOfMonth{
+public class SasakiMain{
 	public static void main(String[] args){
 		Scanner s = new Scanner(System.in);
 		System.out.print("西暦と月を入力>>");
