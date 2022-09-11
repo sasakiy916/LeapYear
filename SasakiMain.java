@@ -5,6 +5,7 @@ public class SasakiMain{
 		System.out.print("西暦と月を入力>>");
 		String ym = s.next();
 		int[] yms = csvToIntArr(ym);
+		int yyy = 1;
 		System.out.printf("%d年%d月は%d日まであります。",yms[0],yms[1],daysOfMonth(yms[0],yms[1]));
 	}
 
